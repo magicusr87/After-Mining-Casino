@@ -1,0 +1,22 @@
+#English US Language file for After Mininig Casino
+
+#Creative Tab
+itemGroup.tab_afterminingcasino=After Mining Casino
+
+#Items
+item.betChip1.name=Bet Chip 1
+item.betChip5.name=Bet Chip 5
+item.betChip10.name=Bet Chip 10
+item.betChip25.name=Bet Chip 25
+item.betChip50.name=Bet Chip 50
+item.betChip100.name=Bet Chip 100
+item.betChip500.name=Bet Chip 500
+item.betChip1k.name=Bet Chip 1k
+item.winTicket1.name=Bet Win Ticket 1
+item.winTicket5.name=Bet Win Ticket 5
+item.winTicket10.name=Bet Win Ticket 10
+item.winTicket25.name=Bet Win Ticket 25
+item.winTicket50.name=Bet Win Ticket 50
+item.winTicket100.name=Bet Win Ticket 100
+item.winTicket500.name=Bet Win Ticket 500
+item.winTicket1k.name=Bet Win Ticket 1k

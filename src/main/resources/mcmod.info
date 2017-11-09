@@ -1,0 +1,16 @@
+[
+{
+  "modid": "afterminingcasino",
+  "name": "After Mining Casino",
+  "description": "Relax at the After Mining Casino all night.",
+  "version": "0.1.1",
+  "mcversion": "10.2",
+  "url": "magicusr87.ninja",
+  "updateUrl": "",
+  "authorList": ["MagicUsr87"],
+  "credits": "Thanks to TylzSomeone and TreeFairy85 for help testing",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
