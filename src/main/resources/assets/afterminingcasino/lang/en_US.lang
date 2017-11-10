@@ -4,6 +4,7 @@
 itemGroup.tab_afterminingcasino=After Mining Casino
 
 #Items
+item.playersCard.name=Player's Card
 item.betChip1.name=Bet Chip 1
 item.betChip5.name=Bet Chip 5
 item.betChip10.name=Bet Chip 10

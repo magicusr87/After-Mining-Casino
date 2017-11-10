@@ -15,7 +15,7 @@ public class AfterMiningCasino {
     public static final String MODID = "afterminingcasino";
     public static final String VERSION = "0.0.1";
     public static final String NAME = "After Mining Casino";
-    @SidedProxy(clientSide = "ninja.magicusr87.afterminingcasino.proxy.ClientProxy", serverSide = "ninja.magicusr87.afterminingcasino.proxy.CommonProxy")
+    @SidedProxy(serverSide = "ninja.magicusr87.afterminingcasino.proxy.CommonProxy", clientSide = "ninja.magicusr87.afterminingcasino.proxy.ClientProxy")
     public static CommonProxy proxy;
     @Mod.Instance
     public static AfterMiningCasino instance;
