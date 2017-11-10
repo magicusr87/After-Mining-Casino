@@ -13,7 +13,7 @@ import ninja.magicusr87.afterminingcasino.tab.CreativeTabAfterMiningCasino;
 @Mod(modid = AfterMiningCasino.MODID, version = AfterMiningCasino.VERSION, name = AfterMiningCasino.NAME)
 public class AfterMiningCasino {
     public static final String MODID = "afterminingcasino";
-    public static final String VERSION = "0.1.3";
+    public static final String VERSION = "0.1.5";
     public static final String NAME = "After Mining Casino";
     @SidedProxy(clientSide = "ninja.magicusr87.afterminingcasino.proxy.ClientProxy", serverSide = "ninja.magicusr87.afterminingcasino.proxy.CommonProxy")
     public static CommonProxy proxy;

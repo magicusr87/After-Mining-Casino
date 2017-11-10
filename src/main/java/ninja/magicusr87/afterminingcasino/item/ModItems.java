@@ -68,6 +68,6 @@ public class ModItems {
         registerRender(winTicket1k);
     }
     public static void registerRender(Item item){
-        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(AfterMiningCasino.MODID + ":" + item.getUnlocalizedName().substring(5)));
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(AfterMiningCasino.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
     }
 }
