@@ -13,9 +13,9 @@ import ninja.magicusr87.afterminingcasino.tab.CreativeTabAfterMiningCasino;
 @Mod(modid = AfterMiningCasino.MODID, version = AfterMiningCasino.VERSION, name = AfterMiningCasino.NAME)
 public class AfterMiningCasino {
     public static final String MODID = "afterminingcasino";
-    public static final String VERSION = "0.1.2";
+    public static final String VERSION = "0.1.3";
     public static final String NAME = "After Mining Casino";
-    @SidedProxy(serverSide = "ninja.magicusr87.afterminingcasino.proxy.CommonProxy", clientSide = "ninja.magicusr87.afterminingcasino.proxy.ClientProxy")
+    @SidedProxy(clientSide = "ninja.magicusr87.afterminingcasino.proxy.ClientProxy", serverSide = "ninja.magicusr87.afterminingcasino.proxy.CommonProxy")
     public static CommonProxy proxy;
     @Mod.Instance
     public static AfterMiningCasino instance;
@@ -28,10 +28,12 @@ public class AfterMiningCasino {
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+
         proxy.init(event);
     }
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
+
         proxy.postInit(event);
     }
 }
