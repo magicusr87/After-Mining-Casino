@@ -34,6 +34,9 @@ public class ModBlocks {
     }
     public static void registerRenders(){
         registerRender(cashierBlock);
+        registerRender(playerPointExchangeBlock);
+        registerRender(winnerExchangeBlock);
+        registerRender(slotMachineBlock);
     }
     public static void registerRender(Block block){
         Item item = Item.getItemFromBlock(block);
