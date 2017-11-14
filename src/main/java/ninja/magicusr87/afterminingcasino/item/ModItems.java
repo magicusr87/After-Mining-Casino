@@ -53,6 +53,7 @@ public class ModItems {
         GameRegistry.register(winTicket1k, new ResourceLocation(AfterMiningCasino.MODID, "winTicket1k"));
     }
     public static void registerRenders(){
+        //Remove lines to transition to 3d Models
 //        registerRender(playersCard);
         registerRender(betChip1);
         registerRender(betChip5);
