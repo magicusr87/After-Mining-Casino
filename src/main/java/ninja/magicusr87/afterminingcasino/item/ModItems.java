@@ -21,6 +21,7 @@ public class ModItems {
     public static Item winTicket100;
     public static Item winTicket500;
     public static Item winTicket1k;
+
     public static void preInit(){
 //        playersCard = new AfterMiningCasinoItem("playersCard");
         betChip1 = new AfterMiningCasinoItem("betChip1");
@@ -37,6 +38,7 @@ public class ModItems {
         winTicket1k = new AfterMiningCasinoItem("winTicket1k");
         registerItems();
     }
+
     public static void registerItems(){
 //        GameRegistry.register(playersCard, new ResourceLocation(AfterMiningCasino.MODID, "playersCard"));
         GameRegistry.register(betChip1, new ResourceLocation(AfterMiningCasino.MODID, "betChip1"));
@@ -52,6 +54,7 @@ public class ModItems {
         GameRegistry.register(winTicket500, new ResourceLocation(AfterMiningCasino.MODID, "winTicket500"));
         GameRegistry.register(winTicket1k, new ResourceLocation(AfterMiningCasino.MODID, "winTicket1k"));
     }
+
     public static void registerRenders(){
         //Remove lines to transition to 3d Models
 //        registerRender(playersCard);
@@ -68,6 +71,7 @@ public class ModItems {
         registerRender(winTicket500);
         registerRender(winTicket1k);
     }
+
     public static void registerRender(Item item){
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(AfterMiningCasino.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
     }

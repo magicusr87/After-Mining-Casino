@@ -18,14 +18,17 @@ public class ClientProxy extends CommonProxy {
         OBJLoader.INSTANCE.addDomain(AfterMiningCasino.MODID);
 //        registerModel(AfterMiningCasino.temp3d);
     }
+
     public void registerModel(Item item){
         ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(AfterMiningCasino.MODID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
     }
+
     @Override
     public void init(FMLInitializationEvent event) {
         ModItems.registerRenders();
         ModBlocks.registerRenders();
     }
+
     @Override
     public void postInit(FMLPostInitializationEvent event) {
     }
